@@ -1,12 +1,6 @@
-# 과정: 입문자를 위한 Chatgpt 및 API 활용 서비스 제작 실무 (<https://www.kpc.or.kr/PTWED003_dtil_view.do?ecno=45501>)
+# 과정: 입문자를 위한 Chatgpt 및 API 활용 서비스 제작 실무
 
-## 교육시간: 2일, 14시간 / 09:30 ~ 17:30
-
-## 교육장소: 한국생산성본부 8층 803호
-
-## 교육비: 정상가 620,000 원 KPC 유료법인회원 560,000 원
-
-## 교육문의: ICT교육센터 02-724-1218 / <hkypark@kpc.or.kr> / 결제·계산서문의 : 02-724-1212
+- 교육시간: 2일, 14시간 / 09:30 ~ 17:30
 
 # 커리큘럼
 
@@ -45,16 +39,13 @@
 
 ## 실습환경 준비
 
-- 코드 환경: VS Code + Python venv
+- 코드 환경: VS Code, Python venv
 - 필수 패키지: openai.OpenAI, dotenv.load_dotenv, os
 - .env 파일 : OPENAI_API_KEY 지정 (https://platform.openai.com/settings/organization/api-keys)
 
 ## Quickstart 기본 실습 1, 2, 3
-- Developer quickstart
-  - Generate text from a model (https://platform.openai.com/docs/quickstart?api-mode=responses)
-  - Analyze the content of an image (https://platform.openai.com/docs/quickstart#analyze-image-inputs)
-  - Extend the model with tools (https://platform.openai.com/docs/quickstart#extend-the-model-with-tools) : 오늘 뉴스, 날씨 등 웹서치 가능함 (외부 도구 사용), gpt-4.1 이상 모델 가능 (gpt-4.1-nano는 지원 안 됨)
 
+- Developer quickstart
 
 ## 멀티모달 API
 
@@ -63,32 +54,28 @@
 
 ## 기초 서비스 실습
 
-- 예: "질문 요약기", "이미지 설명 서비스" 제작
-- 실습 목표는 API 호출 구조 이해 + 간단한 결과 시각화
-
 ## OpenAI 연계서비스 예시
 
 - 이미지 + 텍스트 통합: 이미지 생성 후 설명 생성
-- TTS: 텍스트 → 음성 후 저장 및 재생 (ex. pyttsx3, edge-tts 활용)
-
-# Phase 02 상세내용
+- TTS, STT
 
 ## 다중 API 연계
 
-- ex. 사용자가 녹음 → Whisper로 텍스트 변환 → GPT로 요약
-- 서비스 시나리오 기반 (ex. 회의록 요약기)
+# Phase 02 상세내용
 
-## DALL·E, TTS, ChatGPT 통합
+## Streamlit Quickstart 기본 실습 1, 2, 3
 
-- 프롬프트 설계에 따라 결과가 어떻게 달라지는지 강조
-- 실제 서비스와 유사한 UI 시나리오 구성 (ex. Gradio or Streamlit)
+- 텍스팅, DataFrame 처리, 차트그리기, Input Widget 만들기, Layout 생성
 
-## GPT 개인화 구현
+## GPT ChatBot 구현
 
-- system 메시지를 이용한 역할 고정
-- Function Calling or tools 기능 간단 소개
+- Streamlit 사용 : EchoBot --> OpenAI 직접 연동
+- 개인화된 GPT 만들기
 
-## GPTs & GPT Store 소개
+## GPT 확장 사례 소개
 
-- 개인화된 GPT 만들기 (gpts.openai.com 사용법)
-- 사용 예시: FAQ 응답 챗봇, 업무 자동화 비서 등
+- RAG
+- Langchain
+- MCP
+
+
