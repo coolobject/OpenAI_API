@@ -6,7 +6,6 @@
 
 ***
 ## [Phase 01] OpenAI API 소개 및 기초 서비스 제작
-
 - OpenAI API 개요 (계정 생성)
 - 실습환경 준비, chatGPT (무료, 유료면 better)
 - 멀티모달 API
@@ -14,7 +13,6 @@
 - OpenAI 연계서비스(이미지, TTS, 자동 요약 등)
 
 ## [Phase 02] 다중 API 연계서비스 개발 및 GPT 개인화
-
 - 다중 API 연계 서비스 개발
 - Dalle-3, TTS, ChatGPT 연계
 - Whisper, ChatGPT 연계
@@ -38,42 +36,34 @@
 
 
 ## 실습환경 준비
-
 - 코드 환경: VS Code, Python venv
 - 필수 패키지: openai.OpenAI, dotenv.load_dotenv, os
 - .env 파일 : OPENAI_API_KEY 지정 (https://platform.openai.com/settings/organization/api-keys)
 
 ## Quickstart 기본 실습 1, 2, 3
-
 - Developer quickstart
 
 ## 멀티모달 API
-
 - 이미지 생성 (DALL·E 3) 및 음성 생성 (TTS) 구조 설명
 - API 응답 포맷 구조 강조
 
-## 기초 서비스 실습
-
 ## OpenAI 연계서비스 예시
-
 - 이미지 + 텍스트 통합: 이미지 생성 후 설명 생성
 - TTS, STT
 
 ## 다중 API 연계
+- 실습코드 함수화, pipeline 생성
 
 # Phase 02 상세내용
 
 ## Streamlit Quickstart 기본 실습 1, 2, 3
-
 - 텍스팅, DataFrame 처리, 차트그리기, Input Widget 만들기, Layout 생성
 
 ## GPT ChatBot 구현
-
 - Streamlit 사용 : EchoBot --> OpenAI 직접 연동
 - 개인화된 GPT 만들기
 
 ## GPT 확장 사례 소개
-
 - RAG
 - Langchain
 - MCP
