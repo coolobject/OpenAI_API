@@ -1,21 +1,18 @@
 # 과정: 입문자를 위한 Chatgpt 및 API 활용 서비스 제작 실무
-
 - 교육시간: 2일, 14시간 / 09:30 ~ 17:30
 
 # 커리큘럼
-
 ***
 ## [Phase 01] OpenAI API 소개 및 기초 서비스 제작
 - OpenAI API 개요 (계정 생성)
 - 실습환경 준비, chatGPT (무료, 유료면 better)
-- 멀티모달 API
-- 기초 서비스 실습 준비
-- OpenAI 연계서비스(이미지, TTS, 자동 요약 등)
-
-## [Phase 02] 다중 API 연계서비스 개발 및 GPT 개인화
+- 멀티모달 API 기초 서비스 실습
+  - OpenAI 연계서비스(이미지, TTS, 자동 요약 등)
 - 다중 API 연계 서비스 개발
-- Dalle-3, TTS, ChatGPT 연계
-- Whisper, ChatGPT 연계
+  - Dalle-3, TTS, ChatGPT 연계
+  - Whisper, ChatGPT 연계
+  
+## [Phase 02] 다중 API 연계서비스 개발 및 GPT 개인화
 - 텍스트 → 구조화 → 멀티모달 연결
   : 텍스트 → 오디오(TTS), 텍스트 → 이미지 생성(DALL·E), 음성 → 텍스트(Whisper) 등이 하나의 파이프라인화
 - GPT 개인화 구현(개인용 챗봇)
