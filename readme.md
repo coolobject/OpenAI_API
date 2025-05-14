@@ -23,7 +23,7 @@
 
 ***
 
-# Phase 01 상세내용
+# (Day1) Phase 01 상세내용
 
 ## OpenAI API 개요
 - openai의 공식 Playground에서 실제 실습할 환경을 미리 경험해보기
@@ -54,7 +54,7 @@
 ## 다중 API 연계
 - 실습코드 함수화, pipeline 생성
 
-# Phase 02 상세내용
+# (Day2) Phase 02 상세내용
 
 ## Streamlit Quickstart 기본 실습 1, 2, 3
 - 텍스팅, DataFrame 처리, 차트그리기, Input Widget 만들기, Layout 생성
