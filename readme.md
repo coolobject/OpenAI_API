@@ -57,10 +57,12 @@
 # (Day2) Phase 02 상세내용
 
 ## Streamlit Quickstart 기본 실습 1, 2, 3
+- https://docs.streamlit.io/
 - 텍스팅, DataFrame 처리, 차트그리기, Input Widget 만들기, Layout 생성
 
 ## GPT ChatBot 구현
 - Streamlit 사용 : EchoBot --> OpenAI 직접 연동
+- https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps
 - 개인화된 GPT 만들기
 
 ## GPT 확장 사례 소개
