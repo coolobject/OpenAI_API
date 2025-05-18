@@ -31,7 +31,7 @@
 - 텍스팅, Input Widget, Layout, 챗봇 UI 생성
 
 ## GPT ChatBot 구현
-- Streamlit 사용 EchoBot, Image 처리 챗봇
+- Streamlit 사용 EchoBot, Image 처리 챗봇 완성
 
 ## GPT 확장 사례 소개
 - RAG, Langchain, 바이브코딩, MCP
