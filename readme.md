@@ -11,7 +11,7 @@
 - 파이썬 개발 환경 소개
 
 ## 실습환경 준비
-- 개발도구: 파이썬을 이용한 VSCode, Streamlit 웹앱
+- 개발도구: 파이썬, VSCode, Streamlit 웹앱
 - 교육 중 사용 가능한 ChatGPT Plus, OpenAI API-Key 제공
 
 ## OpenAI API 사용 위한 기초실습
