@@ -3,22 +3,6 @@
 
 # 커리큘럼
 ```
-## [Phase 01] OpenAI API 소개 및 기초 서비스 제작
-- OpenAI API 개요 (계정 생성)
-- 실습환경 준비, chatGPT (무료, 유료면 better)
-- 멀티모달 API 기초 서비스 실습
-  - OpenAI 연계서비스(이미지, TTS, 자동 요약 등)
-- 다중 API 연계 서비스 개발
-  - Dalle-3, TTS, ChatGPT 연계
-  - Whisper, ChatGPT 연계
-  
-## [Phase 02] 다중 API 연계서비스 개발 및 GPT 개인화
-- 텍스트 → 구조화 → 멀티모달 연결
-  : 텍스트 → 오디오(TTS), 텍스트 → 이미지 생성(DALL·E), 음성 → 텍스트(Whisper) 등이 하나의 파이프라인화
-- GPT 개인화 구현(개인용 챗봇)
-- GPTs
-```
-
 ## [Phase 01] OpenAI API 소개 및 멀티모달 API 이용한 기초서비스 제작
 
 ## 개요
@@ -51,5 +35,5 @@
 
 ## GPT 확장 사례 소개
 - RAG, Langchain, 바이브코딩, MCP
-
+```
 
