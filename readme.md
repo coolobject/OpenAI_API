@@ -31,7 +31,7 @@
 - 텍스트 처리, Input Widget 구성, Layout 처리, 챗봇 UI 생성 
 
 ## GPT ChatBot 구현
-- Streamlit 사용 기본 기능 Bot, Image 처리 등 확장기능 7봇 완성
+- Streamlit 사용 기본 기능 Bot, Image 처리 등 확장기능 챗봇 완성
 
 ## GPT 확장 사례 소개
 - 바이브코딩, RAG, Langchain, MCP
