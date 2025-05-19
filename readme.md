@@ -11,28 +11,28 @@
 - 파이썬 개발 환경 소개
 
 ## 실습환경 준비
-- 개발도구: 파이썬을 이용한 VSCode, Streamlit 웹앱
-- ChatGPT(유료버전) 사용, 교육 중 API-Key 제공
+- 개발도구: 파이썬, VSCode, Streamlit 웹앱
+- 교육 중 사용 가능한 ChatGPT Plus, OpenAI API-Key 제공
 
 ## OpenAI API 사용 위한 기초실습
 - 파이썬 기본실습
 - Json 메세지 처리 기본실습
 - 프롬프트 실습
 
-## 멀티모달 API
-- OpenAI API 이용한 텍스트 요약, 이미지 생성 (DALL-E 3), 오디오 처리 (TTS, STT)
+## 멀티모달 API 실습
+- OpenAI API 이용한 텍스트 요약, 이미지 처리 (DALL-E 3), 오디오 처리 (TTS, STT)
 
 ## OpenAI API 연계서비스 실습
 - 멀티모달 API 통합 및 웹서치 기능 확장
 
 ## [Phase 02] Streamlit 이용한 OpenAI API 챗봇 제작
 
-## Streamlit 기본실습
-- 텍스팅, Input Widget, Layout, 챗봇 UI 생성
+## Streamlit 웹앱 제작 기본실습
+- 텍스트 처리, Input Widget 구성, Layout 처리, 챗봇 UI 생성 
 
 ## GPT ChatBot 구현
-- Streamlit 사용 EchoBot, Image 처리 챗봇 완성
+- Streamlit 사용 기본 기능 Bot, Image 처리 등 확장기능 7봇 완성
 
 ## GPT 확장 사례 소개
-- RAG, Langchain, 바이브코딩, MCP
+- 바이브코딩, RAG, Langchain, MCP
 
