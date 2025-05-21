@@ -1,5 +1,6 @@
 # 과정: 입문자를 위한 Chatgpt 및 API 활용 서비스 제작 실무
 - 교육시간: 2일, 14시간 / 09:30 ~ 17:30
+- 교육내용 시나리오 : OpenAI_Class_Scenario_by_J1.ipynb 
 
 # 커리큘럼
 
