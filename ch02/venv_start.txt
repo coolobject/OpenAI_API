@@ -1,9 +1,21 @@
+# 1. 파이썬 가상환경 생성 - 이름: myenv (자신의 폴더 이름 정할 수 있음. 예) ch01)
 python -m venv myenv
 
+# 2. 가상환경 구동
 .\myenv\Scripts\activate
 
-python -m pip install --upgrade pip
+# 3. pip 업그레이드 (선택)
+# python -m pip install --upgrade pip
 
+# 4. 필요한 패키지 미리 설치
 pip install openai python-dotenv ipykernel
 
+# 5. 커널 등록해두기 (선택)
 python -m ipykernel install --user --name=myenv
+
+# 6. python 대신 py 입력하기 alias 
+Set-Alias py python
+
+# 두번 째 날
+# 7. streamlit 설치
+pip install streamlit

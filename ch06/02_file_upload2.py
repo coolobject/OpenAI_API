@@ -10,7 +10,7 @@ load_dotenv()
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
-FILE_NAME = "Day1_27.pdf"
+FILE_NAME = "sample_file.pdf"
 with open(FILE_NAME, "rb") as f:
     data = f.read()
 

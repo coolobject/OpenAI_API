@@ -25,19 +25,15 @@ MODEL_4o = "gpt-4o-mini"
 # ─────────────────────────────────────────────
 response = client.responses.create(
     model = MODEL_S,
-    input="Write a one-sentence summary of HarryPotter book 1 story."
+    input= [
+    {
+        "role": "user", 
+        "content": "Write a one-sentence summary of HarryPotter book 1 story."}
+    ]
 )
 
 # ─────────────────────────────────────────────
-# 실행
+# 실행 "output_text"로 편리하게 출력. Completion과 Response는 다름
+# pip show openai : Version: 1.81.0  (1.22.0 이상에서만 responses 사용 가능)
 # ─────────────────────────────────────────────
 print(response.output_text)
-
-# print(response["output"][0]["role"])
-# print(response["output"][0]["content"][0]["text"])
-# print(response["usage"]["total_tokens"])
-
-print(f'model_dump_json: {response.output[0].content[0].model_dump_json()}')
-print(f'model_json_schema: {response.output[0].content[0].model_json_schema()}')
-print(f'model_dump: {response.output[0].content[0].model_dump()}')
-print(f'text: {response.output[0].content[0].text}')
