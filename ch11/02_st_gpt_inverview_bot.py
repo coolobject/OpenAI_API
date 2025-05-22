@@ -3,9 +3,15 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# 환경 변수 로드
+# ─────────────────────────────────────────────
+# 환경 변수에서 OpenAI API 키 로드
+# ─────────────────────────────────────────────
 load_dotenv()
-OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
+# ─────────────────────────────────────────────
+# OpenAI 클라이언트 인스턴스 생성
+# ─────────────────────────────────────────────
 client = OpenAI()
 
 # 세션 상태 초기화
