@@ -8,6 +8,7 @@ __pycache__/
 
 # 민감 디렉토리 및 파일 무시
 _backup/
+myenv/
 .streamlit/secrets.toml
 PPT 내용.txt
 
