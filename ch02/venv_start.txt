@@ -1,4 +1,10 @@
+
+# 0. Powershell 권한 허용
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 # 1. 파이썬 가상환경 생성 - 이름: myenv (자신의 폴더 이름 정할 수 있음. 예) ch01)
+# Path 인식안될 때, 설치폴더 찾아서 써주기 --> 사용자 폴더 밑에 기본으로 설치됨 --> C:\Users\coolo\AppData\Local\Programs\Python\Python312\python.exe
+# C:\Users\coolo\AppData\Local\Programs\Python\Python312\python -m venv myenv
 python -m venv myenv
 
 # 2. 가상환경 구동
