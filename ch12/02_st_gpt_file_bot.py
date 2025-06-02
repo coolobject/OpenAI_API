@@ -19,6 +19,9 @@ st.set_page_config(page_title="🧠 멀티모달 챗봇", page_icon="🤖")
 st.title("🧠 OpenAI 멀티모달 챗봇")
 st.markdown("텍스트, PDF, 이미지 입력을 받아 응답하는 GPT-4o 기반 챗봇")
 
+with st.sidebar.expander("📌 실습용 API Key"):
+    st.code("sk-abc123456789...", language="text")
+    
 # 모델
 MODEL = "gpt-4o"
 
