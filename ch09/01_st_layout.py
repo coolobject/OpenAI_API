@@ -28,7 +28,7 @@ st.set_page_config(
 # 간격 비율 조정 
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-   st.video("https://www.youtube.com/watch?v=pSUydWEqKwE")
+   st.video("https://www.youtube.com/watch?v=IMuClNioBlI")
 
 # 사이드바
 with st.sidebar:
@@ -37,6 +37,8 @@ with st.sidebar:
         ("Standard (5-15 days)", "Express (2-5 days)")
     )
 
+with st.sidebar.expander("📌 실습용 API Key"):
+    st.code("sk-abc123456789...", language="text")
 
 #탭 생성
 tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
