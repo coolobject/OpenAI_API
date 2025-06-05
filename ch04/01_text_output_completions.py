@@ -29,7 +29,7 @@ completion = client.chat.completions.create(
   messages=[
       {
           "role": "user",
-          "content": "Write a one-sentence summary of HarryPotter book 1 story."
+          "content": "해리포터 이야기를 신문기사처럼 500자 이내로 작성해줘."
       }
   ]
 )

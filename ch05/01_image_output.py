@@ -12,7 +12,7 @@ OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 # 모델 및 클라이언트 설정
 # ─────────────────────────────────────
 client = OpenAI()
-MODEL_IMG = "gpt-image-1"           #dall-e-3, GPT-4o 수준의 LLM 해석+이미지 생성, ~$0.04–$0.08/장, 기관인증 필요
+MODEL_IMG = "dall-e-3"           #dall-e-3, GPT-4o 수준의 LLM 해석+이미지 생성, ~$0.04–$0.08/장, 기관인증 필요
 MODEL_IMG_LOWCOST = "dall-e-2"      #저비용, ~$0.016/장
 
 # ─────────────────────────────────────
@@ -22,7 +22,6 @@ PROMPT = """
 A warm and cheerful illustration of a baby hugging a stuffed bunny, 
 surrounded by soft flowers and pastel colors, in a gentle children's book style.
 """
-
 # ─────────────────────────────────────
 # 이미지 생성 요청
 # ─────────────────────────────────────

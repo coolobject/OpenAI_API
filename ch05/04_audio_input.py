@@ -17,7 +17,7 @@ MODEL = "whisper-1"  # 음성번역
 # ─────────────────────────────────────────────
 # 음성번역 모델 whisper-1
 # ─────────────────────────────────────────────
-audio_file = open("D:\work\KPC_OpenAI_Gpt_API\openai_d1\chat_dog.wav", "rb")
+audio_file = open("D:\work\OpenAI_API\ch05\sample.wav", "rb")
 
 translation = client.audio.translations.create(
     model=MODEL, 
