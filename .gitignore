@@ -10,7 +10,11 @@ __pycache__/
 _backup/
 myenv/
 .streamlit/secrets.toml
-PPT 내용.txt
+
+# 중간생성물 파일 무시
+*.mp3
+*.wav
+sample.txt
 
 # C extensions
 *.so
