@@ -8,16 +8,17 @@ import os
 load_dotenv()
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
 
-model_s="gpt-4.1-nano-2025-04-14"
-model_m = "gpt-4.1"
+MODEL_4o ="gpt-4.o"
+MODEL_4_1 = "gpt-4.1"
+MODEL_SEARCH = "gpt-4o-search-preview"
 #-----------------
 
 client = OpenAI()
 
 response = client.responses.create(
-    model=model_m,
+    model=MODEL_4_1,
     tools=[{"type": "web_search_preview"}],
-    input="What was the weather like in Seoul today? (using under 20 words)"
+    input="오늘은 2025년 6월 5일인데요, 종로구 날씨를 알려주세요."
 )
 
 print(response.output_text)

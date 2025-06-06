@@ -3,6 +3,9 @@ import pandas as pd
 
 # 버튼 클릭
 button = st.button('버튼을 눌러보세요')
+button2 = st.button('지원서를 제출하시겠습니까?')
+if button2:
+    st.write('제출되었습니다.:sparkles:')
 
 if button:
     st.write(':blue[버튼]이 눌렸습니다 :sparkles:')

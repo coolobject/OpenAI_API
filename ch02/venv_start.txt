@@ -21,6 +21,7 @@ python -m ipykernel install --user --name=myenv
 
 # 6. python 대신 py 입력하기 alias 
 Set-Alias py python
+Set-Alias st streamlit
 
 # 두번 째 날
 # 7. streamlit 설치

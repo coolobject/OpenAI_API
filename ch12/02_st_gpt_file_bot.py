@@ -20,14 +20,28 @@ with st.sidebar:
 # API 키가 입력되지 않은 경우 경고 메시지 표시
 if not input_api_key:
     st.warning("API 키를 입력해주세요.")
-    
+
+# 사이드바
+with st.sidebar:
+    selected_model = st.radio(
+        "Choose a GPT ",
+        ("gpt-3.5-turbo", "gpt-4", "gpt-4o-mini")
+    )
+    st.write(f"선택한 모델: {selected_model}")
+
+
+with st.sidebar:
+    selected_temperature = st.radio(
+        "Temperture",
+        (0.2, 0.4, 1.0, 1.2, 1.5)
+    )
+    st.write(f"선택한 온도: {selected_temperature}")
+
 # ─────────────────────────────────────────────
 # OpenAI 클라이언트 인스턴스 생성
 # ─────────────────────────────────────────────
 client = OpenAI(api_key=input_api_key)
     
-# 모델
-MODEL = "gpt-4o"
 
 # 메시지 초기화
 if "messages" not in st.session_state:
@@ -71,7 +85,8 @@ if user_input:
 
     # GPT 응답 생성
     response = client.responses.create(
-        model=MODEL,
+        model=selected_model,
+        temperature=selected_temperature,
         input=[
             {
                 "role": "user",

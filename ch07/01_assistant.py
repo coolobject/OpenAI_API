@@ -45,7 +45,7 @@ while True:
         store=False
     )
 
-    reply = response.choices[0].message.content.strip() 
+    reply = response.choices[0].message.content.strip()
     print("\n면접관:", reply)
 
     # 다음 질문을 위해 메시지에 추가

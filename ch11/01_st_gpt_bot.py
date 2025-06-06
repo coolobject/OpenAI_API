@@ -1,10 +1,16 @@
 import streamlit as st
 from openai import OpenAI
+import os
+from dotenv import load_dotenv
 
 st.title("ChatGPT-like clone")
 
-# Set OpenAI API key from Streamlit secrets
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+# # Set OpenAI API key from Streamlit secrets
+# client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
+load_dotenv()
+OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI()
 
 # Set a default model
 if "openai_model" not in st.session_state:

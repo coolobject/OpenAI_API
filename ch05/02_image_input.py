@@ -52,8 +52,7 @@ response = client.responses.create(
   reasoning={},
   tools=[],
   temperature=1,
-  max_output_tokens=512,
-  top_p=1,
+  max_output_tokens=1024,
   store=True
 )
 

@@ -41,7 +41,7 @@ with st.sidebar.expander("📌 실습용 API Key"):
     st.code("sk-abc123456789...", language="text")
 
 #탭 생성
-tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+tab1, tab2, tab3, tab4 = st.tabs(["Cat", "Dog", "Owl", "Other"])
 
 with tab1:
    st.header("A cat")
@@ -54,3 +54,6 @@ with tab2:
 with tab3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+with tab4:
+    st.header("Other")

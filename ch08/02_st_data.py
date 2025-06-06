@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title('데이터프레임 튜토리얼')
+st.title('데이터프레임 튜토리얼입니다.')
 
 # DataFrame 생성
 dataframe = pd.DataFrame({
@@ -13,11 +13,16 @@ dataframe = pd.DataFrame({
 # use_container_width 기능은 데이터프레임을 컨테이너 크기에 확장할 때 사용합니다. (True/False)
 st.dataframe(dataframe, use_container_width=False)
 
+st.markdown('---')
+st.text('건강보험공단의 ... 건강검진 데이터입니다.')  
+df = pd.read_csv("Health_Data.csv", encoding='cp949')
+st.dataframe(df, use_container_width=False)
+st.markdown('---')
+
 
 # 테이블(static)
 # DataFrame과는 다르게 interactive 한 UI 를 제공하지 않습니다.
 st.table(dataframe)
-
 
 # # 메트릭
 st.metric(label="온도", value="10°C", delta="1.2°C")

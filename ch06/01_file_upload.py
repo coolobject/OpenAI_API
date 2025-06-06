@@ -1,3 +1,4 @@
+# %%
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
@@ -7,13 +8,16 @@ from openai import OpenAI
 # ─────────────────────────────────────────────
 load_dotenv()
 OpenAI.api_key = os.getenv("OPENAI_API_KEY")
+# %%
 client = OpenAI()
-
+# %%
 file = client.files.create(
     file=open("sample_file.pdf", "rb"),
     purpose="user_data"
 )
-
+#%%
+file
+# %%
 response = client.responses.create(
     model="gpt-4.1",
     input=[
@@ -26,11 +30,11 @@ response = client.responses.create(
                 },
                 {
                     "type": "input_text",
-                    "text": "Show me the top 10 words from the pdf file",
+                    "text": "제일 중요한 단어 top 10 알려주세요, Please.",
                 },
             ]
         }
     ]
 )
-
+# %%
 print(response.output_text)
